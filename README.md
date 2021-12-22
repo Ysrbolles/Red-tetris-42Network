@@ -31,7 +31,7 @@ It can take some time to load the app, heroku servers must wake up. -->
 <img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Rooms.png" />
 
 ### Solo game 
-<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Solo-Game.png" />
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Solo.png" />
 
 ### In a 'battle' game (2 players)
 <img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Game.png" />
