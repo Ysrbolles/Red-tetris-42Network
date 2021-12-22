@@ -86,5 +86,11 @@ There is no need to directly manipulate the DOM.
   ```
   
   The server is running on port 1337.
-  The client is running on port 3000.
+  The client is running on port 3000. (http://localhost:3000/)
+
+## TEST
+To see the test coverage, run:
+```
+npm run coverage
+```
 
