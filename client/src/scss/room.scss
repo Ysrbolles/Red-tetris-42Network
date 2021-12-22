@@ -1,0 +1,516 @@
+.room-field {
+  padding: 1vh;
+  flex: 1 1 0%;
+  display: flex;
+  overflow: hidden;
+}
+
+.left-field {
+  flex: 1 1 0%;
+  padding: 1vh;
+  margin: 5px;
+  background-color: #bccdd6b3;
+  border-radius: 2px 60px 2px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.create-room {
+  align-self: center;
+  width: 70%;
+  display: flex;
+  padding: 1vh;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background: #bccdd6b3;
+}
+
+.room-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.room-button {
+  width: 12rem;
+  height: 3vh;
+  background: none;
+  border: 0px;
+  outline: none;
+  opacity: 0;
+  transition-delay: 5ms;
+}
+
+.room-button:enabled {
+  opacity: 1;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.room-button:disabled {
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.room-p {
+  font-size: 2vh;
+  font-family: "ArcadeClassic";
+  margin: 0;
+}
+
+.room-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+}
+
+.room-list-h2 {
+  margin: 0;
+  font-size: 3vh;
+  color: white;
+}
+
+.header-list {
+  height: 6%;
+  display: flex;
+  align-items: center;
+  border: 3px solid white;
+  border-bottom: unset;
+  border-image: initial;
+  border-bottom-style: initial;
+  border-bottom-color: initial;
+  border-radius: 5px 5px 0px 0px;
+}
+.list-name {
+  display: flex;
+  justify-content: center;
+  flex: 3 1 0%;
+}
+
+.list-attribute {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.header-p {
+  font-size: 2vh;
+}
+
+.body-list {
+  height: 100%;
+  border: 3px solid white;
+  border-radius: 0px 0px 5px 40px;
+  overflow-y: auto;
+}
+
+.right-field {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  flex: 1 1 0%;
+  padding: 20px;
+  margin: 5px;
+  background-color: #bccdd6b3;
+  border-radius: 2px 60px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat {
+  display: flex;
+  flex: 4 1 0%;
+  padding: 10px;
+  margin: 5px;
+  background-color: #bccdd6b3;
+  border-radius: 2px;
+  min-height: 66vh;
+  max-height: 73vh;
+  overflow: scroll;
+}
+
+.chat::-webkit-scrollbar {
+  display: none;
+}
+
+.game {
+  border-radius: 2px 2px 2px 2px;
+}
+
+.left-chat {
+  border-radius: 2px 2px 2px 60px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.next-p {
+  font-size: 3vh;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.next-field {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px 2px 2px 2px;
+  max-height: 16vh;
+}
+
+.score-level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.score-level-div {
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: ;
+}
+
+.score-p {
+  font-size: 2vh;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.mode-select {
+  background: none;
+  border: 2px solid white;
+  width: 10vh;
+  color: white;
+  height: 40px;
+  border-radius: 4px;
+  font-family: "ArcadeClassic";
+}
+
+.score-num {
+  color: white;
+  font-size: 3vh;
+}
+
+.mode-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  position: relative;
+  align-self: center;
+  // background-color: rgba(0, 0, 0, 0.3);
+  // display: flex;
+  // flex-direction: column;
+  // height: 86vh;
+  // width: 43vh;
+  // border: 3px solid white;
+  // border-radius: 3px 0px 0px 3px;
+}
+
+.row {
+  flex: 1 1 0%;
+  display: flex;
+}
+
+.col {
+  flex: 1 1 10%;
+  border: 1px solid #b7a5a5;
+}
+
+.chat-field {
+  display: flex;
+  flex: 1 1 0%;
+  border: 3px solid white;
+  border-radius: 5px;
+  height: 0px;
+  min-height: 100%;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-right: 3px solid white;
+}
+
+.messages {
+  flex: 4 1 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-PM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  border-bottom: 3px solid white;
+}
+
+.input-message {
+  height: 4vh;
+  padding: 0.5vh 0.5vh 0.5vh 1vh;
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 100%;
+  background: none;
+  outline: none;
+  color: white;
+  font-family: Verdana;
+  font-size: 1.5vh;
+  font-family: "ArcadeClassic";
+  padding-right: 2.6vh;
+}
+
+.input-form {
+  display: flex;
+  padding: 5px;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.messages-field {
+  display: block;
+  flex: 1 1 0%;
+  padding: 5px;
+  flex-wrap: wrap;
+  overflow: scroll;
+  text-overflow: ellipsis;
+}
+
+.messages-field::-webkit-scrollbar {
+  display: none;
+}
+
+.chatsender {
+  color: #7a2d58 !important;
+  font-size: large !important;
+}
+
+.chatmsg {
+  color: white;
+  width: 0px;
+  width: 0;
+  min-width: 100%;
+}
+
+.send-icon {
+  position: absolute;
+  color: #6c6b6b;
+  margin-right: 8px;
+  transition-delay: 5ms;
+  transition: all 1s;
+}
+
+.icon {
+  font-size: unset;
+  transition-delay: 5ms;
+  transition: all 1s;
+}
+
+.icon:hover {
+  font-size: 1.3em;
+  color: #7a2d58;
+  transition: all 1s;
+}
+
+.send-icon:hover {
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.name-players {
+  display: flex;
+  flex-direction: column;
+  // flex: 1 1 0%;
+  align-items: center;
+  padding: 5px;
+  overflow: scroll;
+  color: white;
+}
+
+.name-players::-webkit-scrollbar {
+  display: none;
+}
+
+.player-room {
+  color: #109910;
+  font-size: large;
+}
+.player-left {
+  color: #cb3535;
+  font-size: large;
+}
+.player-admin {
+  color: #dfda0c;
+  font-size: large;
+}
+
+.overlay {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // border: 3px solid white;
+  // border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 4px;
+  // left: -3px;
+  height: 86vh;
+  width: 43vh;
+  left: 4px;
+}
+
+.overlay-content {
+  width: 70%;
+  color: white;
+}
+
+.overlay-content div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.key {
+  font-size: 2vh;
+  border-radius: 3px;
+  padding: 1px 2px 0px;
+  border: 3px solid white;
+}
+
+.start-game {
+  margin-top: 40px;
+  font-size: 3vh;
+  color: white;
+}
+
+.list-item {
+  color: white;
+  height: 5%;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  // flex-grow: 1;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.28);
+  align-items: center;
+}
+
+.list-item:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 1.8vh;
+  transition: all 0.8s;
+}
+
+.content-list-item {
+  display: flex;
+  justify-content: center;
+  flex: 1 1;
+}
+
+.content-list-item:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  flex: 3 1;
+}
+
+.game-over {
+  font-size: 5vh;
+  color: white;
+}
+
+.players-overlay {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // border: 3px solid white;
+  // border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 19px;
+  height: 30vh;
+  width: 15vh;
+  left: 3px;
+}
+
+.Toastify__toast {
+  font-family: "ArcadeClassic" !important;
+}
+
+.players-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 600px;
+  // max-height: 800px;
+  // overflow: scroll;
+}
+.players-field::-webkit-scrollbar {
+  display: none;
+}
+
+.home-button {
+  color: white;
+  border: 0px;
+  outline: none;
+  opacity: 0.5;
+  transition: opacity 0.2s ease 0s;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  font-size: 3vh;
+  margin-left: 20px;
+  font-family: "ArcadeClassic";
+  cursor: pointer;
+}
+
+.home-button:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;
+}
+
+.sound-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sound-icon {
+  font-size: 1.3em;
+  cursor: pointer;
+  color: white;
+}
+// :root{
+//   --toastify-font-family: ArcadeClassic;
+// }
+
+@media only screen and (max-width: 1230px) {
+  // .room-field{
+  //   flex-direction: column;
+  //   overflow: scroll;
+  // }
+
+  // .room-field::-webkit-scrollbar {
+  //   display: none;
+  // }
+
+  .right-field {
+    display: none;
+  }
+}

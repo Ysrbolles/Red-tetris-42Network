@@ -1,0 +1,204 @@
+@import url("http://fonts.cdnfonts.com/css/arcade-classic");
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  font-family: "ArcadeClassic";
+}
+body {
+  margin: 0px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.home {
+  background-image: url(../assets/ttr.jpeg);
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -4;
+  background: #2f2f2f99;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #bccdd6b3;
+  border-bottom: 1px solid #c6c6c68f;
+}
+
+.title {
+  font-size: 5vh;
+  position: relative;
+  text-transform: uppercase;
+  background: linear-gradient(#a01a63 60%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: #000000c7 6px 6px 10px;
+}
+.name-player {
+  font-size: 2vh;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "ArcadeClassic";
+  color: white;
+  // width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.errors {
+  font-size: 16px;
+  color: white;
+  margin: 30px 14px 0;
+  font-family: "ArcadeClassic";
+  position: absolute;
+  transition: all 0.8s;
+}
+.content {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.namefield {
+  width: 440px;
+  height: 160px;
+  background-color: #bccdd6b3;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.inputfield {
+  font: inherit;
+  width: 100%;
+  border: 0;
+  height: 1.1875em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: border-box;
+  padding: 18.5px 14px;
+  position: relative;
+  color: white;
+}
+
+.input-div {
+  color: rgba(255, 255, 255, 0.87);
+  cursor: text;
+  font-size: 1rem;
+  line-height: 1.1875em;
+  border-radius: 4px;
+  width: 95%;
+  position: relative;
+
+  /* display: inline-flex; */
+  /* position: relative; */
+  /* box-sizing: border-box; */
+  /* align-items: center; */
+}
+
+*:focus {
+  outline: none;
+}
+fieldset {
+  border-color: white;
+  top: -8px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+  /* padding-left: 8px; */
+}
+
+.legend-field {
+  margin-left: 10px;
+}
+
+.submit {
+  margin-top: 20px;
+  background: none;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+  top: -1020px;
+  opacity: 0;
+  transition: top 1s ease-out 0s, transform 1s ease-out 0s, opacity 1s ease 0s;
+  cursor: pointer;
+}
+
+.submit:enabled {
+  top: 0px;
+  transform: rotate(720deg);
+  opacity: 1;
+}
+
+.submit-div {
+  margin: 0px;
+  height: 40px;
+  width: 160px;
+  display: flex;
+}
+
+.green-dev {
+  flex: 1 1 10%;
+  border: 5px outset rgb(81, 145, 135);
+  background-color: rgb(81, 145, 135);
+}
+
+.pink-dev {
+  flex: 1 1 10%;
+  border: 5px outset rgb(130, 18, 79);
+  background-color: rgb(130, 18, 79);
+}
+
+.p-field {
+  font-size: 20px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+p {
+  font-family: "ArcadeClassic";
+  background: white;
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,28 @@
+{
+	"name": "API",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npm run build",
+		"client": "cd client && npm i && npm run build && serve -s build -p 3000",
+		"dev": "concurrently -n 'server,client' -c 'yellow,blue' \"nodemon index.js\" \"npm run client\"",
+		"coverage": "npm run coverage --prefix ./client"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+		"chalk": "^5.0.0",
+		"concurrently": "^6.5.0",
+		"cors": "^2.8.5",
+		"enzyme": "^3.11.0",
+		"express": "^4.17.1",
+		"jest": "^27.4.5",
+		"nodemon": "^2.0.15",
+		"socket.io": "^4.4.0"
+	}
+}
