@@ -57,4 +57,10 @@ Prohibition to use:
 * SVG (Scalable Vector Graphics)
   
 There is no need to directly manipulate the DOM.
+## Skills
+
+* Object-oriented programming 
+* Web 
+* Functional programming 
+* Technology integration 
 
