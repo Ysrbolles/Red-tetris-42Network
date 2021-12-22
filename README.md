@@ -23,14 +23,11 @@ It can take some time to load the app, heroku servers must wake up. -->
 * Socket.io
 <!-- * Deployed with heroku -->
 
-<!-- ## Project preview
+## Project preview
 ### Lobby
-![alt tag](https://i.ibb.co/xMVHgN2/rooms-list.png "Lobby")
-### In a 'battle royal' game
-![alt tag](https://i.ibb.co/sCb7993/inGame.png "In a 'battle royal' game")
-### Player's board is partly filled with malus lines
-![alt tag](https://i.ibb.co/jkrPGcT/in-Game-with-Malus.png "Player's board is partly filled with malus lines")
-### The following is an excerpt from Red Tetris project's subject, the most advanced web project in 42 school's program. -->
+<img src="" />
+### In a 'battle' game
+
 
 ## General instructions
 
