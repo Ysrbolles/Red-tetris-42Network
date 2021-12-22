@@ -74,3 +74,17 @@ There is no need to directly manipulate the DOM.
 * Functional programming 
 * Technology integration 
 
+## Usage
+  After Cloned the repo you must install the packages with the command:
+  ```
+  npm i
+
+  ```
+  Then you can run the server && client with the command:
+  ```
+  npm run dev
+  ```
+  
+  The server is running on port 1337.
+  The client is running on port 3000.
+
