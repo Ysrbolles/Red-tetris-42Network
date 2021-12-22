@@ -24,10 +24,23 @@ It can take some time to load the app, heroku servers must wake up. -->
 <!-- * Deployed with heroku -->
 
 ## Project preview
-### Lobby
+### Home page
 <img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Home.png" />
-### In a 'battle' game
 
+### Lobby 
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Rooms.png" />
+
+### Solo game 
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Solo-Game.png" />
+
+### In a 'battle' game (2 players)
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Game.png" />
+
+### Game Over screen
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Gameover.png" />
+
+### Winner screen
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Winner.png" />
 
 ## General instructions
 
