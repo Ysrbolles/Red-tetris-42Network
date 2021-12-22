@@ -25,7 +25,7 @@ It can take some time to load the app, heroku servers must wake up. -->
 
 ## Project preview
 ### Lobby
-<img src="" />
+<img src="https://github.com/Ysrbolles/Red-tetris-42Network/blob/main/images/Home.png" />
 ### In a 'battle' game
 
 
