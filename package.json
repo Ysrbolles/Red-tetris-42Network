@@ -6,10 +6,10 @@
 	"scripts": {
 		"start": "nodemon index.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "npm run build",
-		"client": "cd client && npm i && npm run build && serve -s build -p 3000",
-		"dev": "concurrently -n 'server,client' -c 'yellow,blue' \"nodemon index.js\" \"npm run client\"",
-		"coverage": "npm run coverage --prefix ./client"
+		"build": "yarn build",
+		"client": "cd client && yarn && yarn build && serve -s build -p 3000",
+		"dev": "concurrently -n 'server,client' -c 'yellow,blue' \"nodemon index.js\" \"yarn client\"",
+		"coverage": "yarn coverage --prefix ./client"
 	},
 	"keywords": [],
 	"author": "",
